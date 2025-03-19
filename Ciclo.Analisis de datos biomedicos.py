@@ -43,7 +43,7 @@ while True:
     continuar = input("Desea ingresar más pacientes? s/n: ").lower().replace(" ","").split()
 
     if continuar in ["n","no"]:
-        print("💔Finalizó el programa")
+        print("Finalizó el programa")
         break
     else:
         fc = entrada_int("Ingresa la Frecuencia Cardiaca: ",50,130)
@@ -53,6 +53,6 @@ while True:
             "ID":len(pacientes)+1,
             "FC":fc,
             "PA":pa
-        }
+        } 
 
     
