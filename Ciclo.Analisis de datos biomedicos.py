@@ -48,4 +48,11 @@ while True:
     else:
         fc = entrada_int("Ingresa la Frecuencia Cardiaca: ",50,130)
         pa = entrada_int("Ingresa la presión arterial: ",80,150)
-        t
+        t = entrada_int("Ingresa la temperatura: ",35,42)
+        paciente = {
+            "ID":len(pacientes)+1,
+            "FC":fc,
+            "PA":pa
+        }
+
+    
