@@ -1,5 +1,9 @@
 # Repos1-Prog_Jes-s-Carrillo
+
+
 Ejercicios de Clase
+
+# EJERCICIO 1 CREAR Y CLASIFICAR PACIENTES
 # Genere datos de 10 pacientes con información aleatoria con ID, y valores solicitados en el problema.
 # Use listas y diccionarios para organizar los datos.
 # Utilice bucles for y while para recorrer y validar datos.
